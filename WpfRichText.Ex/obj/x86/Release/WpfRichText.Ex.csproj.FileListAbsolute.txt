@@ -1,0 +1,16 @@
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\bin\Release\WpfRichText.Ex.exe
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\bin\Release\WpfRichText.Ex.pdb
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\WpfRichText.Ex.csprojResolveAssemblyReference.cache
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\Controls\RichTextEditor.g.cs
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\Window1.g.cs
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\App.g.cs
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\WpfRichText.Ex_MarkupCompile.cache
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\WpfRichText.Ex_MarkupCompile.lref
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\Controls\RichTextEditor.baml
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\Window1.baml
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\WpfRichText.Ex.g.resources
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\WpfRichText.Ex.Properties.Resources.resources
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\WpfRichText.Ex.csproj.GenerateResource.Cache
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\WpfRichText.Ex.exe
+B:\C#\Text_reader\Text-redaktor\WpfRichText.Ex\WpfRichText.Ex\obj\x86\Release\WpfRichText.Ex.pdb
