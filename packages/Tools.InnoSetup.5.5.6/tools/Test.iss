@@ -3,13 +3,13 @@
 ;------------------------------------------------------------------------------
 
 ; Имя приложения
-#define   Name       GetStringFileInfo("..\..\..\GraphicEditor\bin\Release\GraphicEditor.exe", "ProductName")
+#define   Name       GetStringFileInfo("..\..\..\WpfText\bin\Release\WpfText.exe", "ProductName")
 ; Версия приложения
-#define   Version    GetStringFileInfo("..\..\..\GraphicEditor\bin\Release\GraphicEditor.exe", "FileVersion")
+#define   Version    GetStringFileInfo("..\..\..\WpfText\bin\Release\WpfText.exe", "FileVersion")
 ; Фирма-разработчик
-#define   Publisher  GetFileCompany("..\..\..\GraphicEditor\bin\Release\GraphicEditor.exe")
+#define   Publisher  GetFileCompany("..\..\..\WpfText\bin\Release\WpfText.exe")
 ; Имя исполняемого модуля
-#define   ExeName    "GraphicEditor.exe"
+#define   ExeName    "WpfText.exe"
 
 ;------------------------------------------------------------------------------
 ;   Параметры установки
@@ -18,7 +18,7 @@
 
 ; Уникальный идентификатор приложения, 
 ;сгенерированный через Tools -> Generate GUID
-AppId={{6BD4D045-DB09-4186-9BF7-D4D8047D31E4}
+AppId={{C8ABE6A4-1664-4413-9584-06118CD7FF96}
 
 ; Прочая информация, отображаемая при установке
 AppName={#Name}
@@ -53,10 +53,10 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 [Files]
 
 ; Исполняемый файл
-Source: "..\..\..\GraphicEditor\bin\Release\GraphicEditor.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\..\..\WpfText\bin\Release\WpfText.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ; Прилагающиеся ресурсы
-Source: "..\..\..\GraphicEditor\bin\Release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\..\..\WpfText\bin\Release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 ; .NET Framework 4.0
 ;Source: "..\..\..\Install\dotNetFx40_Full_x86_x64.exe"; DestDir: "{tmp}"; Flags: deleteafterinstall; Check: not IsRequiredDotNetDetected
