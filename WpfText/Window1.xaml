@@ -1,0 +1,45 @@
+﻿<Window x:Class="WpfRichText.Ex.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ctl="clr-namespace:WpfRichText.Ex.Controls"
+        xmlns:attached="clr-namespace:WpfRichText.Ex.AttachedProperties"
+        Title="Window1" Height="513" Width="619" Background="#FF2D2D30">
+    <Grid>
+        <StackPanel>
+            <Menu Background="#FF2D2D30">
+                <MenuItem Header="File" FontSize="16" Foreground="#FFEEF5FD">
+                    <MenuItem Header="New" Foreground="#FF2D2D30" ></MenuItem>
+                    <MenuItem Header="Open" Foreground="#FF2D2D30" Click="MenuItem_File_Open"></MenuItem>
+                    <MenuItem Header="Save" Foreground="#FF2D2D30" Click="MenuItem_File_Save"></MenuItem>
+                    <MenuItem Header="SaveAs..." Foreground="#FF2D2D30"></MenuItem>
+                    <Separator></Separator>
+                    <MenuItem Header="Exit" Foreground="#FF2D2D30" Click="MenuItem_Exit"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Edit" FontSize="16" Foreground="#FFEEF5FD">
+                    <MenuItem Header="Undo" Foreground="#FF2D2D30"></MenuItem>
+                    <MenuItem Header="Redo" Foreground="#FF2D2D30"></MenuItem>
+                    <Separator></Separator>
+                    <MenuItem Header="Cut" Foreground="#FF2D2D30"></MenuItem>
+                    <MenuItem Header="Copy" Foreground="#FF2D2D30"></MenuItem>
+                    <MenuItem Header="Paste" Foreground="#FF2D2D30"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="About" FontSize="16" Foreground="#FFEEF5FD">
+                    <MenuItem Header="About programm" Foreground="#FF2D2D30" Click="MenuItem_About_Prog"></MenuItem>
+                    <MenuItem Header="Help" Foreground="#FF2D2D30"></MenuItem>
+                </MenuItem>
+            </Menu>
+
+            <!--<ListBoxItem BorderBrush="#FFF1F1F1" Background="#FF2D2D30" Content="Файл" Height="23" Margin="0,0,564,0" BorderThickness="0,0,0,1" Foreground="#FFF1F1F1" FontSize="14">
+                <ListBoxItem.ContextMenu>
+                    <ContextMenu/>
+                </ListBoxItem.ContextMenu>
+            </ListBoxItem>
+            <Button Content="Открыть" Height="25" Margin="0,0,462,0" BorderThickness="0,0,0,1" BorderBrush="#FFF1F1F1" Background="#FF2D2D30" Foreground="#FFF1F1F1" FontSize="14"/>
+            <Button Content="Сохранить" Height="22" Margin="1,0,0,0" BorderThickness="0,0,0,1" BorderBrush="#FFF1F1F1" Background="#FF2D2D30" Foreground="#FFF1F1F1" FontSize="14"/>-->
+
+            <Label Content="WPF RichText Editor" FontWeight="Bold" FontSize="15" Margin="5"/>
+            <ctl:RichTextEditor Text="{Binding Text, Mode=TwoWay}" />
+        </StackPanel>
+
+    </Grid>
+</Window>
